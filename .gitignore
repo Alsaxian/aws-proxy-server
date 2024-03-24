@@ -30,3 +30,7 @@ override.tf.json
 
 # Terragrunt
 .terragrunt-cache
+
+# Ignore sensitive information in tfvars automation files
+terraform.tfvars
+*.auto.tfvars
